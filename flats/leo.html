@@ -1,0 +1,219 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <!-- Always force latest IE rendering engine or request Chrome Frame -->
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+
+    <!-- For Bootstrap responsiveness -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title>The Middleman</title>
+
+    <link href="../stylesheets/all.css" rel="stylesheet" />
+    <script src="../javascripts/all.js"></script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- Leave those next 4 lines if you care about users using IE8 -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body class="flats flats_leo">
+
+    <div class="navbar-wagon">
+  <!-- Logo -->
+<a class="navbar-wagon-brand" href="/">    <img src="../images/lewagon.png" />
+</a>
+  <!-- Right Navigation -->
+  <div class="navbar-wagon-right hidden-xs hidden-sm">
+
+    <!-- Search form -->
+    <form action="" class="navbar-wagon-search">
+      <input type="text" class="navbar-wagon-search-input" placeholder="Search something">
+      <button type="submit" class="navbar-wagon-search-btn">
+        <i class="fa fa-search"></i>
+      </button>
+    </form>
+
+    <!-- Text link -->
+    <a href="https://www.lewagon.com" class="navbar-wagon-item navbar-wagon-link">Wagon</a>
+
+    <!-- Text link -->
+
+    <a class="navbar-wagon-item navbar-wagon-link" href="../team.html">Team</a>
+
+    <!-- Notification link-->
+    <a href="" class="navbar-wagon-item navbar-wagon-link">
+      <div class="badge-container">
+        <i class="fa fa-envelope-o"></i>
+        <div class="badge badge-blue">3</div>
+      </div>
+    </a>
+
+    <!-- Profile picture and dropdown -->
+    <div class="navbar-wagon-item">
+      <div class="dropdown">
+        <img src="https://placehold.it/50x50" class="avatar dropdown-toggle" id="navbar-wagon-menu" data-toggle="dropdown">
+        <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
+          <li><a href="#">Profile</a></li>
+          <li><a href="#">Dashboard</a></li>
+          <li><a href="#">Log Out</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Button (call-to-action) -->
+    <a href="" class="navbar-wagon-item navbar-wagon-button btn">Post stuff</a>
+  </div>
+
+  <!-- Dropdown appearing on mobile only -->
+  <div class="navbar-wagon-item hidden-md hidden-lg">
+    <div class="dropdown">
+      <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
+      <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
+        <li><a href="#">Some mobile link</a></li>
+        <li><a href="#">Other one</a></li>
+        <li><a href="#">Other one</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+    <!-- Section with background picture -->
+
+
+<div class="banner short" style="background-image: linear-gradient(-225deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.3) 50%), url('../images/hollywood.jpeg'); background-position: center;">
+</div>
+
+<!-- Section with Profile and Booking Form -->
+
+<div class="wrapper-flat padded shadow">
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-sm-offset-1">
+      <div class="header-flat-details">
+        <div class="flat-owner">
+          <img class="img-circle" src="../images/leo.jpeg" />
+        </div>
+        <div class="flat-name">
+          <h3> Leo's flat</h3>
+        <p> An amazing villa located in the hear of hollywood</p>
+          <i class="fa fa-star" style="color: orange"> </i>
+
+
+
+               <i class="fa fa-star"> </i>
+
+               <i class="fa fa-star"> </i>
+
+               <i class="fa fa-star"> </i>
+
+               <i class="fa fa-star"> </i>
+
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-4">
+      <form action="#">
+          <h4>Book this flat</h4>
+          <div class="form-group">
+            <div class="row">
+              <div class="col-xs-6">
+                <input type="text" class="form-control" placeholder="checkin" id="checkin">
+              </div>
+              <div class="col-xs-6">
+                <input type="text" class="form-control" placeholder="checkout">
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <select name="" id="guests" class="form-control">
+              <option value="1">1 guest</option>
+              <option value="2">2 guests</option>
+              <option value="3">3 guests</option>
+            </select>
+          </div>
+          <input type="submit" class="btn btn-danger" value="Book it" style="width: 100%">
+        </form>
+    </div>
+
+  </div>
+</div>
+
+  <!-- About this Flat Section -->
+
+  <div class="flat-description padded">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+        <h2>About this Flat</h2>
+        <p> This is the best apartment in Hollywood</p>
+        <hr>
+        <div class="row">
+          <div class="col-xs-12 col-sm-4">The Space</div>
+          <div class="col-xs-12 col-sm-4">Accommodates: 16
+          <br>
+          Bathroooms: 4
+          <br>
+          Bed Type: Real Bed
+
+          </div>
+          <div class="col-xs-12 col-sm-4">
+          Bedrooms: 6
+          <br>
+          Property Type: Villa <br>
+          Bed Type: Real Bed </div>
+        </div>
+        <hr>
+        <div class="row">
+          <div class="col-xs-12 col-sm-4">Amenities</div>
+          <div class="col-xs-12 col-sm-4">
+          <i class="fa fa-wifi"> </i>
+          Wifi
+          <br>
+          <i class="fa fa-cutlery"> </i>
+          Kitchen
+          </div>
+          <div class="col-xs-12 col-sm-4">
+          <i class="fa fa-tv"> </i>
+          TV
+          <br>
+          <i class="fa fa-glass"> </i>
+          Welcome Drink
+          </div>
+        </div>
+         </div>
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+    <div id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-4">
+        <ul class="list-inline">
+          <li><a href=""><i class="fa fa-youtube"></i></a></li>
+          <li><a href=""><i class="fa fa-instagram"></i></a></li>
+          <li><a href=""><i class="fa fa-facebook"></i></a></li>
+          <li><a href=""><i class="fa fa-twitter"></i></a></li>
+        </ul>
+      </div>
+      <div class="col-xs-8 text-right">
+        <p>This is a Airbnb Home challenge @ LeWagon</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  </body>
+</html>
